@@ -1,0 +1,37 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+I could clearly see the changes I have made in the new version from the previous version.So it helps us remove any compilation or syntax error or any change in code.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+I wil definitley save time compairing differnt versions of a program.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+ Pros:Manual saving offers more flexibility.
+ 	  I think it makes the code more redistributable.Diiferent programmers can work indivisually on existing code and compare results in the end with each other.
+Cons:Things might get cluttered if I commit too often.	  
+	 If I don't have the habit to commit,I might not be able to keep trackof the major differences.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    If files are interlinked, then Git makes a new commit of the combination of files even if someof the files have no change.
+    This is to ensure that the modified file works with a particular set of other files, and how it affects them.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log will give us the history of all the modifications and messages.It will also give a unique id for each commit.By writing git diff id1 id2, we compare two commits.
+How might using version control make you more confident to make changes that
+could break something?
+
+    git checkout comes to the rescue here.I can always go back to a previous version just before the bug was introduced(though it may take some time).Then i will use git diff
+    to fins the changes in code that led to error.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    manage all my code,projects,help me share code, so that i can work with other people as well.
